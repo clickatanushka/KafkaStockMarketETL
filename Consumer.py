@@ -7,8 +7,10 @@ consumer = KafkaConsumer(
     'demo_test',
      bootstrap_servers=[':9092'], #add your IP here
     value_deserializer=lambda x: loads(x.decode('utf-8')))
-# for c in consumer:
-#     print(c.value)
+# You can comment this section out
+for c in consumer:
+    print(c.value)
+# Till here 
 s3 = S3FileSystem()
 for count, i in enumerate(consumer):
     with s3.open("s3://kafka-stock-market-anushka/stock_market_{}.json".format(count), 'w') as file:
