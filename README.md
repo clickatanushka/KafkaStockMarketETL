@@ -70,7 +70,8 @@ Glue Crawler
 ### Athena Query Results
 Athena Output – 91 rows
 
-<img width="1216" height="672" alt="Screenshot From 2026-02-25 01-31-13" src="https://github.com/user-attachments/assets/51d835dc-6fe5-4e0b-acee-3f2ad86e1f72" />
+<img width="1202" height="707" alt="image" src="https://github.com/user-attachments/assets/5dc0eed5-7cc0-402b-9d0a-a5ccc486c191" />
+
 
 Athena Output now you can observe the rows executed right now is 144 <img width="1221" height="675" alt="Screenshot From 2026-02-25 01-33-45" src="https://github.com/user-attachments/assets/9df840cd-20b3-4097-aec4-3e99bb16ab75" />
 
